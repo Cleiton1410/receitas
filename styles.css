@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f7f7;
+    color: #0a0a0a;
+}
+
+header {
+    background-color: #f0b3b3;
+    color: #0e0d0d;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 5px solid #333;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2,
+h3 {
+    color: #0b0b0b;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+a {
+    color: #d13f07;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff6347;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ingredients li {
+    color: #333;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #f0b3b3;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.ingredients li::before {
+    content: "★";
+    font-size: 20px;
+    color: #ff6347;
+    position: absolute;
+    left: -20px;
+}
+
+/* Borda ao redor das imagens */
+.ingredients li img {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #333;
+    border-radius: 50%;
+}
+
+.bolo-img {
+    border: 5px solid #333;
+    border-radius: 10px;
+}
+
+
+.grid-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    background-color: #f5f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+video {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.highlight {
+    color: #ff3333;
+    font-weight: bold;
+}
+
+
+.preparo-secao {
+    background-color: #fdf2f2;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+    color: #ff3333;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
